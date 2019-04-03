@@ -13,7 +13,7 @@ const DisplayContestants = props => {
       <h1>Saucy Gentlemen</h1>
       <Container>
         <Row>
-          <Col>{mapContestants}</Col>
+          {mapContestants}
         </Row>
       </Container>
     </div>
