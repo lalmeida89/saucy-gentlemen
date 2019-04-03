@@ -1,3 +1,15 @@
+.bachelor-card {
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+  margin: 5px; 
+}
+
+.bachelor-card p, .bachelor-card h5 {
+  margin: 0;
+}
+
 .bachelor-img {
-  width: 300px;
+  width: 200px;
 }
