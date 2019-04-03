@@ -18,7 +18,7 @@ const DisplayTeams = props => {
     }
     return (
       <tbody>
-        <TeamsWrapper team={team.team} teamOwner={team.teamOwner} roster={team.roster} />
+        <TeamsWrapper team={team} />
       </tbody>
     )
   })
