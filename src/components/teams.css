@@ -1,0 +1,10 @@
+.team-table {
+  margin: 50px auto;
+  padding: 20px;
+  width: 90%;
+  background: #ffffffe0;
+}
+
+.team-table tr {
+  font-size: 10px;
+}

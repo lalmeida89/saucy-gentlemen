@@ -1,9 +1,13 @@
 .bachelor-card {
-  border: 1px solid green;
-  border-radius: 10px;
+  border: 1px solid #d8d0d01f;
+  border-radius: 5px;
   padding: 10px;
   text-align: left;
-  margin: 5px; 
+  margin: 5px auto;
+  background: #ffffffd9;
+  -webkit-box-shadow: 8px 8px 8px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 8px 8px 8px -4px rgba(0,0,0,0.75);
+  box-shadow: 8px 8px 8px -4px rgba(0,0,0,0.75);
 }
 
 .bachelor-card p, .bachelor-card h5 {
@@ -12,4 +16,20 @@
 
 .bachelor-img {
   width: 200px;
+}
+
+.bachelors-container {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.row {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .bachelor-card {
+    margin: 10px auto;
+  }
 }

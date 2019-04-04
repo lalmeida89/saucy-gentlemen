@@ -6,7 +6,11 @@ class TeamsWrapper extends Component {
         <tr>
           <td>{this.props.team.teamName}</td>
           <td>{this.props.team.teamOwner}</td>
-          <td>{this.props.team.roster}</td>
+          <td>{this.props.team.bachelor1}</td>
+          <td>{this.props.team.bach1Points}</td>
+          <td>{this.props.team.bachelor2}</td>
+          <td>{this.props.team.bach2Points}</td>
+          <td>{this.props.team.totalPoints}</td>
         </tr>
     );
   }

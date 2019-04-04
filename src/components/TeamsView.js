@@ -1,29 +1,29 @@
 import React, { Component } from 'react';
 import {Table} from 'react-bootstrap';
 import TeamsWrapper from './TeamsWrapper';
-import {teamsTable} from './teams-table'
+import {teamsTable} from './teams-table';
+import './teams.css';
 
 const DisplayTeams = props => {
   let mapTeams = props.teams.map((team, idx) => {
-    if(idx == 0){
+    if(idx === 0){
       return(
-        <thead>
+        <thead key={idx}>
           <tr>
-            <th>{team[0]}</th>
-            <th>{team[1]}</th>
-            <th>{team[2]}</th>
+            {team.map((el, i) => <th key={i}>{el}</th>)}
           </tr>
         </thead>
       )
     }
     return (
-      <tbody>
-        <TeamsWrapper team={team} />
+      <tbody key={idx}>
+        <TeamsWrapper
+          team={team} />
       </tbody>
     )
   })
   return(
-    <Table striped bordered hover>
+    <Table striped bordered hover className='team-table'>
       {mapTeams}
     </Table>
   )

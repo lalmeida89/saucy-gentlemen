@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import BachelorsView from './components/BachelorsView';
 import Rules from './components/Rules';
