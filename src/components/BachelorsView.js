@@ -11,7 +11,6 @@ const DisplayContestants = props => {
   ))
   return (
     <div className='bachelors-container'>
-      <h1>Saucy Gentlemen</h1>
       <Container>
         <Row>
           {mapContestants}

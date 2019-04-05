@@ -1,0 +1,21 @@
+.rules {
+  width: 65%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #d8d0d01f;
+  border-radius: 5px;
+  background: #ffffffd9;
+  -webkit-box-shadow: 8px 8px 8px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 8px 8px 8px -4px rgba(0,0,0,0.75);
+  box-shadow: 8px 8px 8px -4px rgba(0,0,0,0.75);
+}
+
+.rules p {
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .rules {
+    width: 90%;
+  }
+}
