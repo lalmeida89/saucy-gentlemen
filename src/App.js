@@ -3,7 +3,7 @@ import './App.css';
 import BachelorsView from './components/BachelorsView';
 import Rules from './components/Rules';
 import TeamsView from './components/TeamsView';
-import Button from 'react-bootstrap/Button';
+import {Button} from 'react-bootstrap';
 
 class App extends Component {
   constructor(props) {
@@ -44,9 +44,10 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Button variant='primary' onClick={()=>this.renderRules()}>Rules </Button>
-        <Button variant='secondary' onClick={()=>this.renderContestants()}>contestants </Button>
-        <Button variant='info' onClick={()=>this.renderTeams()}>teams </Button>
+        <h1 className="saucy-gents-header"> Saucy Gentlemen </h1>
+        <Button variant='primary' onClick={()=>this.renderContestants()}> Contestants </Button>
+        <Button variant='primary' onClick={()=>this.renderTeams()}> Standings </Button>
+        <Button variant='primary' onClick={()=>this.renderRules()}> Rules </Button>
         {showRules ? <Rules /> : null}
         {showContestants ? <BachelorsView /> : null}
         {showTeams ? <TeamsView /> : null}

@@ -6,4 +6,16 @@
 .App {
   text-align: center;
   background: url('https://slm-assets0.secondlife.com/assets/6285566/view_large/Fabric_White_PinkHeartsScatter_Z.jpg?1348082042') repeat center;
+  height: 100%;
+}
+
+.saucy-gents-header {
+  background: #de4242;
+  color: white;
+}
+
+.btn-primary{
+  margin: 0 2px;
+  background-color: #de4242;
+  border: 1px solid white;
 }
