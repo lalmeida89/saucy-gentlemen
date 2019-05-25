@@ -16,7 +16,7 @@ class Rules extends Component {
         </p>
         <p> If one of the players on your team wins the whole damn thang, that team will be awarded 12 points. </p>
         <p> The points standing, from highest to lowest, will determine the draft order </p>
-        <p> In case of a tie, standings will be determine by the combine height of both of their players </p>
+        <p> In case of a tie, standings will be determine by the combined height of both of their players </p>
         <p> Standings will be updated every Tuesday night </p>
       </div>
     );

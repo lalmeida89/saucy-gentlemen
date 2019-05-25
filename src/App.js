@@ -4,6 +4,7 @@ import BachelorsView from './components/BachelorsView';
 import Rules from './components/Rules';
 import TeamsView from './components/TeamsView';
 import {Button} from 'react-bootstrap';
+import {bachelorsTable} from './components/bachelors-table'
 
 class App extends Component {
   constructor(props) {
@@ -37,6 +38,26 @@ class App extends Component {
       showContestants: true,
       showTeams: false
     })
+  }
+
+  randomDude = arr => {
+    let theChosenOne = arr[Math.floor(Math.random()*arr.length)]
+    return theChosenOne;
+  }
+
+  chooseTeams = arr => {
+    let dupe = arr.slice()
+    console.log(dupe);
+    for (let i = 0; i < arr.length; i++) {
+      let theGuy = this.randomDude(dupe)
+      let theGuyIndex = dupe.indexOf(theGuy)
+      console.log(theGuy, theGuyIndex);
+      dupe.splice(theGuyIndex, 1)
+    }
+  }
+
+  componentDidMount = () => {
+    this.chooseTeams(bachelorsTable)
   }
 
   render() {
