@@ -12,6 +12,8 @@ class BachelorsWrapper extends Component {
         <h6> {this.props.contestant.name} </h6>
         <p> ({this.props.contestant.age}) {this.props.contestant.hometown} </p>
         <p> Team: {!this.props.contestant.team? 'Not yet drafted' : this.props.contestant.team} </p>
+        <p> Points: {this.props.contestant.points} </p>
+        <p> Eliminated: {this.props.contestant.eliminated ? this.props.contestant.eliminationDate : 'Still Alive'} </p>
       </div>
     );
   }
