@@ -5,7 +5,6 @@ import {teamsTable} from './teams-table';
 import './teams.css';
 
 const DisplayTeams = props => {
-  console.log(props.teams.sort((a,b) => a.points > b.points ))
   let mapTeams = props.teams.map((team, idx) => {
     if(idx === 0){
       return(
