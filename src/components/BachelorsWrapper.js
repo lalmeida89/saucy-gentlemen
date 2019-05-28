@@ -4,7 +4,7 @@ import './bachelors.css';
 class BachelorsWrapper extends Component {
   render() {
     return (
-      <div className='bachelor-card'>
+      <div className='bachelor-card' id={this.props.contestant.eliminated ? 'eliminated' : 'alive'}>
         <img className='bachelor-img'
           src={`https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/${this.props.contestant.img}.jpg`}
           alt={`${this.props.contestant.name}'s profile`}

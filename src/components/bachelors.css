@@ -10,6 +10,17 @@
   box-shadow: 8px 8px 8px -4px rgba(0,0,0,0.75);
 }
 
+#eliminated:before {
+    text-align: center;
+    position: absolute;
+    content: '';
+    background: url('https://www.drodd.com/images14/x16.png');
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    pointer-events: none;
+}
+
 .bachelor-card p, .bachelor-card h5 {
   margin: 0;
 }
