@@ -6,7 +6,7 @@ class Rules extends Component {
     return (
       <div className='rules'>
         <h3> Scoring Breakdown </h3>
-        <p> Each team will be randomly assigned two hot dudes during the second week of The Bachelorette </p>
+        <p> Each team will be randomly assigned two hot dudes after the second week of The Bachelorette </p>
         <p> Teams are awarded points based on how long their players survive </p>
         <p> Each week that a player survives, their team will earn points based as follows: <br />
             Surving the first week = 1 point. <br />
