@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import BachelorsWrapper from './BachelorsWrapper';
-import {bachelorsTable} from './bachelors-table';
+import BachelorsTable from './bachelors-table';
 import {Container, Row} from 'react-bootstrap';
 
 const DisplayContestants = props => {
@@ -24,7 +24,7 @@ const DisplayContestants = props => {
 class BachelorsView extends Component {
   render() {
     return (
-      <DisplayContestants contestants={bachelorsTable} />
+      <DisplayContestants contestants={BachelorsTable} />
     );
   }
 }

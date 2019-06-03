@@ -1,9 +1,6 @@
-const add = (a,b) => {
-  return a + b
-}
+import BachelorsTable from './bachelors-table'
 
-export const teamsTable = [
-  ['Team', 'Owner', 'QB1', 'Pts', 'QB2', 'Pts', 'Total Pts'],
+const TeamsTable = [
   {
     teamName: 'Melvisioner Gordon',
     teamOwner: 'Luiz',
@@ -89,3 +86,7 @@ export const teamsTable = [
     totalPoints: 2
   }
 ]
+
+console.log(BachelorsTable);
+
+export default TeamsTable;
