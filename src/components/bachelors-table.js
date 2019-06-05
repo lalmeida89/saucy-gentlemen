@@ -17,7 +17,7 @@ const BachelorsTable = [
       hometown: 'Dallas, TX',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'54217264-10158411543917846-9074835579379646464-n-1552654181',
       team: TeamsTable[10].teamOwner
     },
@@ -27,7 +27,7 @@ const BachelorsTable = [
       hometown: 'Chicago, IL',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'53746348-10158411544437846-4816318189057081344-n-1552654543',
       team: TeamsTable[5].teamOwner
     },
@@ -37,7 +37,7 @@ const BachelorsTable = [
       hometown: 'San Diego, CA',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'53700298-10158411544012846-9171778441563865088-n-1552654675',
       team: TeamsTable[9].teamOwner
     },
@@ -47,7 +47,7 @@ const BachelorsTable = [
       hometown: 'Birmingham, AL',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'53687179-10158411544462846-1785573756425469952-n-1552654756',
       team: TeamsTable[6].teamOwner
     },
@@ -57,7 +57,7 @@ const BachelorsTable = [
       hometown: 'Nashville, TN',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'53900805-10158411544537846-863022142818615296-n-1552655147',
       team: TeamsTable[0].teamOwner
     },
@@ -67,7 +67,7 @@ const BachelorsTable = [
       hometown: 'Sherman Oaks, CA',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'53733271-10158411544372846-5626250262604677120-n-1552654437',
       team: TeamsTable[7].teamOwner
     },
@@ -77,7 +77,7 @@ const BachelorsTable = [
       hometown: 'San Clemente, CA',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'53797740-10158411543907846-1051385844914454528-n-1552654827',
       team: TeamsTable[6].teamOwner
     },
@@ -87,7 +87,7 @@ const BachelorsTable = [
       hometown: 'Charlotte, NC',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'53786870-10158411545002846-7090512645123473408-n-1552653747',
       team: TeamsTable[11].teamOwner
     },
@@ -97,7 +97,7 @@ const BachelorsTable = [
       hometown: 'Staten Island, NY',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'54524996-10158411545167846-2228978702526447616-n-1552655311',
       team: TeamsTable[0].teamOwner
     },
@@ -115,8 +115,8 @@ const BachelorsTable = [
       name: 'John Paul J.',
       age: '24',
       hometown: 'New Carrolton, MD',
-      eliminated: false,
-      eliminationDate: null,
+      eliminated: true,
+      eliminationDate: 'Week 2',
       points: 1,
       img:'54728398-10158411544647846-2634214385937022976-n-1552655466',
       team: TeamsTable[11].teamOwner
@@ -127,7 +127,7 @@ const BachelorsTable = [
       hometown: 'Gainesville, GA',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'53893328-10158411544137846-5411447665252630528-n-1552655762',
       team: TeamsTable[2].teamOwner
     },
@@ -147,7 +147,7 @@ const BachelorsTable = [
       hometown: 'Manteno, IL',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'53607296-10158411544702846-4578936433233887232-n-1552655684',
       team: TeamsTable[5].teamOwner
     },
@@ -155,8 +155,8 @@ const BachelorsTable = [
       name: 'Luke S.',
       age: '29',
       hometown: 'Washington, D.C.',
-      eliminated: false,
-      eliminationDate: null,
+      eliminated: true,
+      eliminationDate: 'Week 2',
       points: 1,
       img:'53625573-10158411544882846-7646111860801929216-n-1552655820',
       team: TeamsTable[10].teamOwner
@@ -167,7 +167,7 @@ const BachelorsTable = [
       hometown: 'Winter Springs, FL',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'53742556-10158411544722846-1176325296798826496-n-1552655883',
       team: TeamsTable[4].teamOwner
     },
@@ -195,8 +195,8 @@ const BachelorsTable = [
       name: 'Matteo V.',
       age: '25',
       hometown: 'Atlanta, GA',
-      eliminated: false,
-      eliminationDate: null,
+      eliminated: true,
+      eliminationDate: 'Week 2',
       points: 1,
       img:'53614370-10158411544797846-8511662510997241856-n-1552656102',
       team: TeamsTable[3].teamOwner
@@ -217,7 +217,7 @@ const BachelorsTable = [
       hometown: 'Westlake Village, CA',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'54433094-10158411544022846-5862027504545431552-n-1552656279',
       team: TeamsTable[9].teamOwner
     },
@@ -227,7 +227,7 @@ const BachelorsTable = [
       hometown: 'San Antonio, TX',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'54233724-10158411544847846-4382839745600815104-n-1552656189',
       team: TeamsTable[1].teamOwner
     },
@@ -237,7 +237,7 @@ const BachelorsTable = [
       hometown: 'Jupiter, FL',
       eliminated: false,
       eliminationDate: null,
-      points: 1,
+      points: 2,
       img:'54114881-10158411545067846-7946902757141643264-n-1552656536',
       team: TeamsTable[8].teamOwner
     }
