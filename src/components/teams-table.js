@@ -67,7 +67,7 @@ const TeamsTable = [
   {
     teamName: "It's A Fire!",
     teamOwner: 'Jimmy',
-    bachelor1: 'Peter W,', bach1Points: 7,
+    bachelor1: 'Peter W.', bach1Points: 7,
     bachelor2: 'Dylan B.', bach2Points: 3,
     totalPoints: 10
   },
