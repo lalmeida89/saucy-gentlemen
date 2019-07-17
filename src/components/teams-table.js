@@ -16,11 +16,11 @@ const TeamsTable = [
     totalPoints: 3
   },
   {
-    teamName: 'CuervoSucio',
-    teamOwner: 'Chris',
-    bachelor1: 'Luke P.', bach1Points: 5,
-    bachelor2: 'Jonathan S.', bach2Points: 0,
-    totalPoints: 5
+    teamName: 'Oh Saquon You See',
+    teamOwner: 'Alan',
+    bachelor1: 'Jon Paul James', bach1Points: 1,
+    bachelor2: 'Ben G.', bach2Points: 0,
+    totalPoints: 1
   },
   {
     teamName: 'Cam Ol Toes',
@@ -61,15 +61,15 @@ const TeamsTable = [
     teamName: 'DBreezyMVPeezy',
     teamOwner: 'Liam',
     bachelor1: 'Tyler G.', bach1Points: 0,
-    bachelor2: 'Tyler C.', bach2Points: 6,
-    totalPoints: 6
+    bachelor2: 'Tyler C.', bach2Points: 7,
+    totalPoints: 7
   },
   {
     teamName: "It's A Fire!",
     teamOwner: 'Jimmy',
-    bachelor1: 'Peter W,', bach1Points: 6,
+    bachelor1: 'Peter W,', bach1Points: 7,
     bachelor2: 'Dylan B.', bach2Points: 3,
-    totalPoints: 9
+    totalPoints: 10
   },
   {
     teamName: 'Old Men Drinkin Beer',
@@ -79,11 +79,11 @@ const TeamsTable = [
     totalPoints: 4
   },
   {
-    teamName: 'Oh Saquon You See',
-    teamOwner: 'Alan',
-    bachelor1: 'Jon Paul James', bach1Points: 1,
-    bachelor2: 'Ben G.', bach2Points: 0,
-    totalPoints: 1
+    teamName: 'CuervoSucio',
+    teamOwner: 'Chris',
+    bachelor1: 'Luke P.', bach1Points: 5,
+    bachelor2: 'Jonathan S.', bach2Points: 0,
+    totalPoints: 5
   }
 ]
 

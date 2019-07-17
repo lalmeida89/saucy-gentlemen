@@ -55,8 +55,8 @@ const BachelorsTable = [
       name: 'Jed W.',
       age: '25',
       hometown: 'Nashville, TN',
-      eliminated: false,
-      eliminationDate: null,
+      eliminated: true,
+      eliminationDate: 'Week 7',
       points: 6,
       img:'53900805-10158411544537846-863022142818615296-n-1552655147',
       team: TeamsTable[0].teamOwner
@@ -217,7 +217,7 @@ const BachelorsTable = [
       hometown: 'Westlake Village, CA',
       eliminated: false,
       eliminationDate: null,
-      points: 6,
+      points: 7,
       img:'54433094-10158411544022846-5862027504545431552-n-1552656279',
       team: TeamsTable[9].teamOwner
     },
@@ -237,7 +237,7 @@ const BachelorsTable = [
       hometown: 'Jupiter, FL',
       eliminated: false,
       eliminationDate: null,
-      points: 6,
+      points: 7,
       img:'54114881-10158411545067846-7946902757141643264-n-1552656536',
       team: TeamsTable[8].teamOwner
     }
