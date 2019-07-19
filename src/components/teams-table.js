@@ -31,7 +31,7 @@ const TeamsTable = [
   },
   {
     teamName: 'Da Behrs',
-    teamOwner: 'Felix',
+    teamOwner: 'Patrick',
     bachelor1: 'Matt S.', bach1Points: 0,
     bachelor2: 'Matt D. from FL', bach2Points: 0,
     totalPoints: 0
