@@ -4,8 +4,8 @@ class TeamsWrapper extends Component {
   render() {
     return (
         <tr>
-          <td><b>{this.props.team.teamName}</b></td>
-          <td>{this.props.team.teamOwner}</td>
+          <td><b>{this.props.pick}</b></td>
+          <td><b>{this.props.team.teamOwner}</b></td>
           <td>{this.props.team.bachelor1}</td>
           <td>{this.props.team.bach1Points}</td>
           <td>{this.props.team.bachelor2}</td>

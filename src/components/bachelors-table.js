@@ -2,6 +2,38 @@ import TeamsTable from './teams-table'
 
 const BachelorsTable = [
     {
+      name: 'Jed W.',
+      age: '25',
+      hometown: 'Nashville, TN',
+      eliminated: false,
+      eliminationDate: null,
+      points: 15,
+      img:'53900805-10158411544537846-863022142818615296-n-1552655147',
+      team: TeamsTable[0].teamOwner,
+      finish: "Winner!"
+    },
+    {
+      name: 'Tyler C.',
+      age: '26',
+      hometown: 'Jupiter, FL',
+      eliminated: false,
+      eliminationDate: '2nd Place',
+      points: 7,
+      img:'54114881-10158411545067846-7946902757141643264-n-1552656536',
+      team: TeamsTable[8].teamOwner,
+      finish: 'Runner-up'
+    },
+    {
+      name: 'Peter W.',
+      age: '27',
+      hometown: 'Westlake Village, CA',
+      eliminated: true,
+      eliminationDate: '3rd Place',
+      points: 6,
+      img:'54433094-10158411544022846-5862027504545431552-n-1552656279',
+      team: TeamsTable[9].teamOwner
+    },
+    {
       name: 'Cameron A.',
       age: '30',
       hometown: 'Austin, TX',
@@ -50,16 +82,6 @@ const BachelorsTable = [
       points: 4,
       img:'53687179-10158411544462846-1785573756425469952-n-1552654756',
       team: TeamsTable[6].teamOwner
-    },
-    {
-      name: 'Jed W.',
-      age: '25',
-      hometown: 'Nashville, TN',
-      eliminated: true,
-      eliminationDate: 'Week 7',
-      points: 6,
-      img:'53900805-10158411544537846-863022142818615296-n-1552655147',
-      team: TeamsTable[0].teamOwner
     },
     {
       name: 'Devin H.',
@@ -212,16 +234,6 @@ const BachelorsTable = [
       team: TeamsTable[8].teamOwner
     },
     {
-      name: 'Peter W.',
-      age: '27',
-      hometown: 'Westlake Village, CA',
-      eliminated: false,
-      eliminationDate: null,
-      points: 7,
-      img:'54433094-10158411544022846-5862027504545431552-n-1552656279',
-      team: TeamsTable[9].teamOwner
-    },
-    {
       name: 'Mike J.',
       age: '32',
       hometown: 'San Antonio, TX',
@@ -230,16 +242,6 @@ const BachelorsTable = [
       points: 4,
       img:'54233724-10158411544847846-4382839745600815104-n-1552656189',
       team: TeamsTable[1].teamOwner
-    },
-    {
-      name: 'Tyler C.',
-      age: '26',
-      hometown: 'Jupiter, FL',
-      eliminated: false,
-      eliminationDate: null,
-      points: 7,
-      img:'54114881-10158411545067846-7946902757141643264-n-1552656536',
-      team: TeamsTable[8].teamOwner
     }
 ]
 

@@ -4,8 +4,7 @@ import BachelorsTable from './bachelors-table';
 import {Container, Row} from 'react-bootstrap';
 
 const DisplayContestants = props => {
-  let sortedContestants = props.contestants.sort((a,b) => (a.team > b.team) ? 1 : -1 )
-  let mapContestants = sortedContestants.map((contestant, i) => (
+  let mapContestants = props.contestants.map((contestant, i) => (
     <BachelorsWrapper
       key={i}
       contestant={contestant}/>

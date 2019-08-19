@@ -5,13 +5,14 @@ import TeamsTable from './teams-table';
 import './teams.css';
 
 const DisplayTeams = props => {
-  const sectionLabels = ['Team', 'Owner', 'QB1', 'Pts', 'QB2', 'Pts', 'Total Pts']
+  const sectionLabels = ['Pick', 'Owner', 'QB1', 'Pts', 'QB2', 'Pts', 'Total Pts']
   let sortedTeams = props.teams.sort((a,b) => b.totalPoints - a.totalPoints)
   console.log(sortedTeams);
   let mapTeams = sortedTeams.map((team, idx) => (
       <tbody key={idx}>
         <TeamsWrapper
-          team={team} />
+          team={team}
+          pick={idx+1}/>
       </tbody>
   ))
   return(
